@@ -24,27 +24,27 @@
 	* Still in the Build Setting page, select **Player Settings**
 	* Select **XR Plugin Management** and then **Install XR Plugin Management**
 	
-	![2](3.png)
+	![2](3.PNG)
 	
 	* Once installed, select the Android tab, and check the **Oculus box** ( you may have less tabs then the image bellow)
 	
-	![3](4.png)
+	![3](4.PNG)
 
 3. ### Install XR Interactions
 	* Still in Project Settings, select **Package Manager**
 	* Check the box the says **Enable Pre-release Packages**, you will then be asked to confirm you understand the implication
 
-	![4](7.png)
+	![4](7.PNG)
 	
 	* Close the **Project Settings** panel, and the **build settings** menu
 	* Go to **Window > Package Manager**
 
-	![4](5.png)
+	![4](5.PNG)
 	
 	* In Package Manager, select **Unity Registry** from the top 
 	* Search for **XR Interaction Toolkit**, select it and press **Install**. When finished, Unity will need to restart
 
-	![6](8.png)
+	![6](8.PNG)
 
 
 ## C. Setup VR rig - Much more interesting
@@ -52,12 +52,12 @@
 1. ### Add XR rig to scene
 	* Go to **GameObject** > **XR** > **Device-Based** > **XR Rig**
 	
-	![7](9.png)
+	![7](9.PNG)
 	
 2. ### Add a ground plane to the scene
 	* Go to **GameObject** > **3D Object** > **Plane**
 	
-	![8](10.png)
+	![8](10.PNG)
 	
 	* If you like, give the Ground a new material
 
@@ -74,7 +74,7 @@
 	* Press the **Refresh** button to allow Unity to find your headset
 	* Select your headset from the **Run Device** dropdown, it should say **Oculus Quest ** and then a number in brackets
 
-	![9](11.png)
+	![9](11.PNG)
 
 	* Press **Build And Run**
 	* Choose a location to build ( it can be anywhere you like) and give it a name ( you can name it anything)
@@ -91,7 +91,7 @@
 	* Choose one of the Food items ( or make a simple prefab shape)
 	* Drag it onto the **Model Prefab** box on both controllers
 
-	![9](12.png)
+	![9](12.PNG)
 	
 	* Test your project
 
@@ -100,19 +100,19 @@
 1. ### Add rotation
 	* Go to **GameObject** > **XR** > **Device-Based** > **Locomotion System** component to the scene
 
-	![9](12.png)
+	![9](12.PNG)
 
 	* Drag the XR Rig onto the XR Rig box in the locomotion System
 	* Drag one of your controllers from your rig, into the Controllers List in the **snap turn provider** component. This will allow you to rotate the camera using the controller
    
-	![9](13.png)
+	![9](13.PNG)
 	
 	* Build your project and then experiment with different values
 	
 2. ### Add teleportation
 	* Add **Teleportation Area** component to your plane
 	
-	 ![9](14.png)
+	 ![9](14.PNG)
 		
 	* Build the project and try to teleport around the plane
 	* You can also add teleportation Anchors. Go to **GameObject** > **XR** > ** Teleportation Anchor** , move the anchor away from your main ground plane and rescale it. you can add these to allow the user to teleport to specific points.
@@ -122,7 +122,7 @@
 3. ### Add controller movement
 	* An alternative method of movement is to use continuous movement, add the **Continuous Move Provider (Device-based)** component to the locomotion system
 
-	![9](15.png)
+	![9](15.PNG)
 
 	* You will need to add a controller from your XR rig to the Controllers list on the component.
 
@@ -133,7 +133,7 @@
 	* Made sure the object has a **Box Collider** and **Ridgid body** component
 	* Add an **XR Grab Interactable** component to the shape
 
-	![9](16.png)
+	![9](16.PNG)
 
 	* You will now be able to pick up and throw the object using the grip button on the controller
 	* Build your scene to test this out.
