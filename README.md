@@ -88,7 +88,7 @@
 	* Choose one of the Food items ( or make a simple prefab shape)
 	* Drag it onto the **Model Prefab** box on both controllers
 
-	![9](13.PNG)
+	![9](17.PNG)
 	
 	* Test your project
 
