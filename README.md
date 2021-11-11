@@ -61,9 +61,6 @@
 	
 	* If you like, give the Ground a new material
 
-3. ### Add Hands
-	* Create a new 3D game object 
-
 3. ### Prepare the Headset
 	* Now is a good time to test build your project on your Quest
 	* Plug your Quest into the computer using the USB cable
