@@ -2,7 +2,7 @@
 
 
 
-## A. Prerequisites - This has already been done for you for this session
+## A. Prerequisites - This needs to be done before you can start the rest of the tutorial
 
 * Unity installed, including android build support module.
 * Oculus Quest setup, with developer mode activated
