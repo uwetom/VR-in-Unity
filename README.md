@@ -82,7 +82,7 @@
 ## D. Add Hands (sort of)
 
 1. ### Import objects from Blackboard
-	* Go to blackboard and download the food unity package
+	* Install the food unity package from the unity asset store [https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295](https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295)
 	* Drag it into the assets panel in Unity
 	
 2. ### Add prefab to controllers
