@@ -7,6 +7,7 @@
 * Unity installed, including android build support module.
 * Oculus Quest setup, with developer mode activated
 	[https://developer.oculus.com/documentation/native/android/mobile-device-setup/](https://developer.oculus.com/documentation/native/android/mobile-device-setup/)
+* To make this a bit more fun, I have used a food asset package from the unity asset store [https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295](https://assetstore.unity.com/packages/3d/food-pack-3d-microgames-add-ons-163295)
 
 ## B. Setup Unity -  The Less interesting bit
 
